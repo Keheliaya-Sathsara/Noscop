@@ -523,7 +523,7 @@ section-f {
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  background-color: #007bff;
+  background-color: #ff5e00;
   color: white;
   cursor: pointer;
 }
@@ -559,7 +559,7 @@ section-f {
 
 .footer-nav a {
   color: #aaa;
-  margin: 0 10px;
+  margin: 5px 10px;
   text-decoration: none;
 }
 
@@ -570,7 +570,7 @@ section-f {
 .copyright {
   margin: 0;
 }
-.bottom-bottom-bar {
+.bb-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
