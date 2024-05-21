@@ -79,21 +79,23 @@ nav img{
     overflow: hidden;
 }
 .text-box h1{
-    font-size: 200px;
+    font-size: 160px;
     font-weight: 700; 
 }
 .text-box h1 span{
     color: rgba(255, 255, 255, 0);
-            font-size: 200px;
+            font-size: 160px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .sub-heading{
     padding-right: 10px;
     margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 400;
 }
 .button-1{
-    padding: 10Px 30px;
+    padding: 7Px 40px;
     border-radius: 20px;
     background-color: #ffffff00;
     border-width: 3px;
@@ -101,15 +103,26 @@ nav img{
     border-style: solid;
     text-align: center;
     color: #ffffff;
+    
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+    }
 }
 .button-2{
-    padding: 10Px 30px;
+    padding: 7Px 40px;
     border-radius: 20px;
     background-color: #E36B4A;
     border-width: 3px;
     border-color: #E36B4A;
     border-style: solid;
     color: #ffffff;
+    margin-left: 12px;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+    }
 }
 
 /* about section */
