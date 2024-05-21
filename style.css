@@ -79,21 +79,23 @@ nav img{
     overflow: hidden;
 }
 .text-box h1{
-    font-size: 200px;
+    font-size: 160px;
     font-weight: 700; 
 }
 .text-box h1 span{
     color: rgba(255, 255, 255, 0);
-            font-size: 200px;
+            font-size: 160px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .sub-heading{
     padding-right: 10px;
     margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 400;
 }
 .button-1{
-    padding: 10Px 30px;
+    padding: 7Px 40px;
     border-radius: 20px;
     background-color: #ffffff00;
     border-width: 3px;
@@ -101,15 +103,26 @@ nav img{
     border-style: solid;
     text-align: center;
     color: #ffffff;
+    
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+    }
 }
 .button-2{
-    padding: 10Px 30px;
+    padding: 7Px 40px;
     border-radius: 20px;
     background-color: #E36B4A;
     border-width: 3px;
     border-color: #E36B4A;
     border-style: solid;
     color: #ffffff;
+    margin-left: 12px;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+    }
 }
 
 /* about section */
@@ -433,6 +446,11 @@ section-f {
   margin: 0;
   font-family: Inter, sans-serif;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .footer {
   background-color: #15243b;
   color: #fff;
@@ -469,13 +487,16 @@ section-f {
 }
 
 .footer-left h2 {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .footer-left p {
   font-size: 14px;
   line-height: 1.5;
+  color: #8C8C8C;
+  margin-top: 10px;
 }
 
 .contact-section {
@@ -489,6 +510,19 @@ section-f {
   align-items: center;
   margin: 10px 0;
   flex: 1;
+
+  .s-p-p {
+    color: #8C8C8C;
+    font-size: 14px;
+    padding-bottom: 0%;
+  }
+
+  .s-p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 0%;
+  }
 }
 
 .contact-icon {
@@ -501,8 +535,17 @@ section-f {
   margin-top: 0;
 }
 
+.newsletter-section h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .newsletter-section p {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8C8C8C;
 }
 
 .newsletter-form {
@@ -517,30 +560,34 @@ section-f {
   border-radius: 20px;
   margin-right: 10px;
   flex: 1;
+  background-color: #333344;
 }
 
 .newsletter-button {
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  background-color: #007bff;
+  background-color: #E36B4A;
   color: white;
   cursor: pointer;
+  position: relative;
+  overflow: visible;
 }
 
 .social-section {
   margin-top: 20px;
 }
 
-.social-icons {
+.social-icon {
   display: flex;
   margin-top: 10px;
 }
 
-.social-icon {
+.social-icons {
   font-size: 20px;
   margin-right: 10px;
   cursor: pointer;
+  padding: 5px 5px;
 }
 
 .bottom-bar {
@@ -569,6 +616,10 @@ section-f {
 
 .copyright {
   margin: 0;
+
+  a {
+    color: #E36B4A;
+  }
 }
 .bottom-bottom-bar {
   display: flex;
