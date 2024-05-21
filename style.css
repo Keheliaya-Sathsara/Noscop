@@ -433,6 +433,11 @@ section-f {
   margin: 0;
   font-family: Inter, sans-serif;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .footer {
   background-color: #15243b;
   color: #fff;
@@ -469,13 +474,16 @@ section-f {
 }
 
 .footer-left h2 {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .footer-left p {
   font-size: 14px;
   line-height: 1.5;
+  color: #8C8C8C;
+  margin-top: 10px;
 }
 
 .contact-section {
@@ -489,6 +497,19 @@ section-f {
   align-items: center;
   margin: 10px 0;
   flex: 1;
+
+  .s-p-p {
+    color: #8C8C8C;
+    font-size: 14px;
+    padding-bottom: 0%;
+  }
+
+  .s-p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 0%;
+  }
 }
 
 .contact-icon {
@@ -501,8 +522,17 @@ section-f {
   margin-top: 0;
 }
 
+.newsletter-section h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .newsletter-section p {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8C8C8C;
 }
 
 .newsletter-form {
@@ -517,30 +547,34 @@ section-f {
   border-radius: 20px;
   margin-right: 10px;
   flex: 1;
+  background-color: #333344;
 }
 
 .newsletter-button {
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  background-color: #ff5e00;
+  background-color: #E36B4A;
   color: white;
   cursor: pointer;
+  position: relative;
+  overflow: visible;
 }
 
 .social-section {
   margin-top: 20px;
 }
 
-.social-icons {
+.social-icon {
   display: flex;
   margin-top: 10px;
 }
 
-.social-icon {
+.social-icons {
   font-size: 20px;
   margin-right: 10px;
   cursor: pointer;
+  padding: 5px 5px;
 }
 
 .bottom-bar {
@@ -559,7 +593,7 @@ section-f {
 
 .footer-nav a {
   color: #aaa;
-  margin: 5px 10px;
+  margin: 0 10px;
   text-decoration: none;
 }
 
@@ -569,8 +603,12 @@ section-f {
 
 .copyright {
   margin: 0;
+
+  a {
+    color: #E36B4A;
+  }
 }
-.bb-bar {
+.bottom-bottom-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
