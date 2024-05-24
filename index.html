@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700&amp;display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script type="module" src="index.js"></script>
 </head>
 <body>
     <section class="header">
@@ -24,7 +25,8 @@
                 </ul>        
             </div>
             <div class="contact"> +94 11 3456 765  |&nbsp;&nbsp;</div>
-            <div class="flag"><img src="assets/flag.png"> Sri Lanka</div>
+            <div class="flag"><img src="assets/flag.png"> Sri Lanka &nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <button class="button" id="logout">Logout</button>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>   
     <div class="text-box">
@@ -263,7 +265,7 @@
 <!-- script  -->
     <script>
     
-    /*Background slider*/ 
+        /*Background slider*/ 
     const images = [
         'assets/background1.png',
         'assets/background2.png',
@@ -285,7 +287,6 @@
 
         // Initialize with the first background image
         document.body.style.backgroundImage = `url(${images[0]})`;
-
 
     </script>
     

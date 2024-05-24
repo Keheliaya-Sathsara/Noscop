@@ -45,15 +45,15 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 4px;
-    background: rgba(30, 36, 87, 0.74);
+    background: rgba(226, 226, 226, 0.74);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -66,6 +66,14 @@ nav img{
 }
 .flag{
     color: #ffffff;
+}
+.button{
+  background-color: #E36B4A;
+  padding: 4px 8px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
 }
 .text-box{
     width: 100%;
