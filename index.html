@@ -175,26 +175,52 @@
 	</ul>
 
 	<div class="slider-wrapper">
-		<ul class="details-slider">
-			<li class="details" id="economy-details">
-				<h3>
-					Heading
-				</h3>
+		<div class="details-slider">
+			<div class="details" id="economy-details">
+				<iFrame src="flow1.html" width="100%" height="800px" style="position: relative; padding: 0;"></iFrame>
 				<!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, animi soluta. Doloremque magni aperiam nostrum architecto possimus consequatur, itaque earum vero, tenetur saepe a quam autem corrupti iure aut atque. -->
-			</li>
-			<li class="details" id="business-details">
-				<h3>
-					Heading
-				</h3>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, animi soluta. Doloremque magni aperiam nostrum architecto possimus consequatur, itaque earum vero, tenetur saepe a quam autem corrupti iure aut atque.
-			</li>
-			<li class="details" id="first-class-details">
-				<h3>
-					Heading
-				</h3>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, animi soluta. Doloremque magni aperiam nostrum architecto possimus consequatur, itaque earum vero, tenetur saepe a quam autem corrupti iure aut atque.
-			</li>
-		</ul>
+			</div>
+			<div class="details" id="business-details">
+                <iFrame src="flow1.html" width="100%" height="800px" style="position: relative; padding: 0;"></iFrame>
+				
+			</div>
+			<div class="details" id="first-class-details">
+				
+			
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<!-- info 2-->
+<section class="info-master">
+    <div class="info">
+        <input type="radio" name="pricing-tier" id="tire1">
+        <input type="radio" name="pricing-tier" id="tire2" checked>
+        <input type="radio" name="pricing-tier" id="tire3">
+
+	<ul class="nav" role="navigation">
+		<label role="listitem" for="tire1">Tier 1 (Minor)</label>
+		<label role="listitem" for="tire2">Tier 2 (Medium)</label>
+		<label role="listitem" for="tire3">Tier 3 (Large)</label>
+	</ul>
+
+	<div class="slider-wrapper">
+		<div class="details-slider">
+			<div class="details" id="tire1-details">
+				
+				<!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, animi soluta. Doloremque magni aperiam nostrum architecto possimus consequatur, itaque earum vero, tenetur saepe a quam autem corrupti iure aut atque. -->
+			</div>
+			<div class="details" id="tire2-details">
+				
+				
+			</div>
+			<div class="details" id="tire3-details">
+				
+			
+			</div>
+		</div>
 	</div>
 </div>
 </section>
@@ -263,6 +289,7 @@
     <!-- footer end -->
     
 <!-- script  -->
+
     <script>
     
         /*Background slider*/ 
@@ -287,6 +314,11 @@
 
         // Initialize with the first background image
         document.body.style.backgroundImage = `url(${images[0]})`;
+
+
+
+        // info section
+      
 
     </script>
     

@@ -342,13 +342,13 @@ nav img{
 
 .info {
   width: 100vw;
-  max-width: 80em;
   margin: auto;
   box-shadow: 1rem 1rem 3rem 0 var(--softTint);
   line-height: 1.6;
   color: var(--mediumGrey);
   border-radius: 5px;
   background: #ffffff;
+  height: auto;
   
 }
 
@@ -413,6 +413,7 @@ input[type=radio]:checked {
   padding: 4rem;
   width: 100%;
   align-content: center;
+  position: relative;
 }
 
 #economy:checked ~ .nav, #economy:checked ~ .slider-wrapper,
@@ -445,6 +446,40 @@ input[type=radio]:checked {
 #first-class:checked ~ .nav label[for=first-class], #first-class:checked ~ .slider-wrapper label[for=first-class],
 #first-class:focus ~ .nav label[for=first-class],
 #first-class:focus ~ .slider-wrapper label[for=first-class] {
+  color: var(--primary);
+}
+
+/* tire */
+#tire1:checked ~ .nav, #tire1:checked ~ .slider-wrapper,
+#tire1:focus ~ .nav,
+#tire1:focus ~ .slider-wrapper {
+  --i: 0;
+}
+#tire1:checked ~ .nav label[for=tire1], #tire1:checked ~ .slider-wrapper label[for=economy],
+#tire1:focus ~ .nav label[for=tire1],
+#tire1:focus ~ .slider-wrapper label[for=tire1] {
+  color: var(--primary);
+}
+
+#tire2:checked ~ .nav, #tire2:checked ~ .slider-wrapper,
+#tire2:focus ~ .nav,
+#tire2:focus ~ .slider-wrapper {
+  --i: 1;
+}
+#tire2:checked ~ .nav label[for=tire2], #tire2:checked ~ .slider-wrapper label[for=business],
+#tire2:focus ~ .nav label[for=tire2],
+#tire2:focus ~ .slider-wrapper label[for=tire2] {
+  color: var(--primary);
+}
+
+#tire3:checked ~ .nav, #tire3:checked ~ .slider-wrapper,
+#tire3:focus ~ .nav,
+#tire3:focus ~ .slider-wrapper {
+  --i: 2;
+}
+#tire3:checked ~ .nav label[for=tire3], #tire3:checked ~ .slider-wrapper label[for=first-class],
+#tire3:focus ~ .nav label[for=tire3],
+#tire3:focus ~ .slider-wrapper label[for=tire3] {
   color: var(--primary);
 }
 
