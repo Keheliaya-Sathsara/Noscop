@@ -40,12 +40,76 @@
                 <div class="ag-timeline-card_inner">
                   <div class="ag-timeline-card_img-box">
                     <img src="assets/background2.png" class="ag-timeline-card_img" width="640" height="360" />
+                    
                   </div>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Spill threats and types of incidents</div>
+                    <div class="parent-grid">
+                      <div class="div1">
+                        <img src="assets/div1.png" alt="" width="30px" height="30px">
+                        <p>​Ship<br> Incidents</p>
+                      </div>
+                      <div class="div2">
+                        <img src="assets/div2.png" alt="" width="30px" height="30px">
+                        <p>Tank Farm<br> Accidents</p>
+                      </div>
+                      <div class="div3">
+                        <img src="assets/div3.png" alt="" width="30px" height="30px">
+                        <p>Pipeline<br> damage​</p>
+                      </div>
+                      <div class="div4">
+                        <img src="assets/div4.png" alt="" width="30px" height="30px">
+                        <p>Boat<br> Accidents​</p>
+                      </div>
+                      <div class="div5">
+                        <img src="assets/div5.png" alt="" width="30px" height="30px">
+                        <p>Aircraft<br> Accident​​</p>
+                      </div>
+                      <div class="div6">
+                        <img src="assets/div6.png" alt="" width="30px" height="30px">
+                        <p>Natural<br> Disaster​</p>
+                      </div>
+                      <div class="div7">
+                        <img src="assets/div7.png" alt="" width="30px" height="30px">
+                        <p>Inland<br> Sources​</p>
+                      </div>
+                      <div class="div8">
+                        <img src="assets/div8.png" alt="" width="30px" height="30px">
+                        <p>Terrorist<br> Attack</p>
+                      </div>
+                      </div>
                     <div class="ag-timeline-card_desc">
                       Sri Lankan Waters is a well–known maritime hub for trade and international affairs. Therefore, there is a high risk of oil and HNS spills due to the highly congested traffic in Sri Lankan Waters.
                     </div>
+                    <!-- drop down -->
+                    <div class="container-l">
+                      <div class="head-l" onclick="toggleContent()">
+                          <div class="title">NOHSCP Section – Oil and HNS spill threats (p.01)</div>
+                          <img class="icon" src="assets/d-down.png" alt="arrow icon">
+                      </div>
+                      <div class="list" id="content">
+                          <strong>Supported Parties:</strong>
+                          <ul>
+                              <li> - HNS Mechanism</li>
+                              <li> - New agencies included to plan (Chemical Weapon Convention, ITI, CBRN Team)</li>
+                          </ul>
+                      </div>
+                    </div>
+
+                    <div class="container2">
+                      <div class="head2" onclick="toggleContent2()">
+                          <div class="title2">Updating NOHSCP</div>
+                          <img class="icon2" src="assets/d-down.png" alt="arrow icon2">
+                      </div>
+                      <div class="list2" id="content2">
+                          <strong>Supported Parties:</strong>
+                          <ul>
+                              <li> - HNS Mechanism</li>
+                              
+                          </ul>
+                      </div>
+                    </div>
+                  <!--  -->
                   </div>
                 </div>
                 <div class="ag-timeline-card_arrow"></div>
@@ -344,6 +408,23 @@
   });
 })(jQuery);
 
+// drop down 1
+
+function toggleContent() {
+            var content = document.getElementById('content');
+            var header = document.querySelector('.head-l');
+            content.classList.toggle('show');
+            header.classList.toggle('open');
+        }
+
+        // drop down 2
+
+function toggleContent2() {
+            var content2 = document.getElementById('content2');
+            var head2 = document.querySelector('.head2');
+            content2.classList.toggle('show2');
+            head2.classList.toggle('open2');
+        }
 
 
 </script>
