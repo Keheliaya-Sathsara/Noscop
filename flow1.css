@@ -1,12 +1,10 @@
-
 body {
-    background-color: #000;
-  
-    overflow-x: hidden;
+    background-color: #fff;
+    /* overflow-x: hidden; */
   }
   
   @font-face {
-    font-family: 'ESL Legend';
+    font-family: 'Inter';
     src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
     src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix) format("embedded-opentype"),
     url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2) format("woff2"),
@@ -17,7 +15,7 @@ body {
     font-weight: 300;
   }
   @font-face {
-    font-family: 'ESL Legend';
+    font-family: 'Inter';
     src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
     src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix) format("embedded-opentype"),
     url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2) format("woff2"),
@@ -28,7 +26,7 @@ body {
     font-weight: normal;
   }
   @font-face {
-    font-family: 'ESL Legend';
+    font-family: 'Inter';
     src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
     src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix) format("embedded-opentype"),
     url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2) format("woff2"),
@@ -59,21 +57,21 @@ body {
     text-align: center;
   }
   .ag-timeline_tagline {
-    font-size: 40px;
-    color: rgb(84, 89, 95);
+    font-size: 16px;
+    color: #627592;
+    font-weight: 500;
+    padding-bottom: 20px;;
   }
   .ag-timeline_title {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
+  
     background-repeat: no-repeat;
     background-position: 50% 50%;
-  
+    color: #000;
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
-    text-fill-color: transparent;
-    color: transparent;
-  
-    font-size: 80px;
+    font-weight: 700;
+    font-size: 32px;
   }
   
   .ag-timeline_item {
@@ -94,8 +92,8 @@ body {
     position: relative;
   }
   .ag-timeline_line {
-    width: 2px;
-    background-color: #393935;
+    width: 6px;
+    background-color: #D9D9D9;
   
     position: absolute;
     top: 2px;
@@ -114,11 +112,12 @@ body {
   .ag-timeline_line-progress {
     width: 100%;
     height: 20%;
-    background-color: #FF0;
+    background-color: #E36B4A;
   }
   
   .ag-timeline-card_box {
     padding: 0 0 20px 50%;
+  /*   background-color: #E36B4A; */
   }
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
     padding: 0 50% 20px 0;
@@ -126,6 +125,7 @@ body {
   .ag-timeline-card_point-box {
     display: inline-block;
     margin: 0 14px 0 -28px;
+  /*   background-color: #E36B4A; */
   }
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
     margin: 0 -28px 0 14px;
@@ -134,12 +134,13 @@ body {
     height: 50px;
     line-height: 50px;
     width: 50px;
-    border: 3px solid #FF0;
-    background-color: #1d1d1b;
+    border: 3px solid #E36B4A;
+    background-color: #E36B4A;
   
     text-align: center;
-    font-family: 'ESL Legend', sans-serif;
-    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
     color: #FFF;
   
     -webkit-border-radius: 50%;
@@ -148,7 +149,7 @@ body {
   }
   .js-ag-active .ag-timeline-card_point {
     color: #1d1d1b;
-    background-color: #FF0;
+    background-color: #fff;
   }
   .ag-timeline-card_meta-box {
     display: inline-block;
@@ -156,10 +157,10 @@ body {
   .ag-timeline-card_meta {
     margin: 10px 0 0;
   
-    font-family: 'ESL Legend', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #FF0;
+    color: #000;
   }
   .ag-timeline-card_item {
     display: inline-block;
@@ -241,21 +242,23 @@ body {
   }
   .ag-timeline-card_info {
     padding: 20px 30px;
+    background-color: #fff;
   }
   .ag-timeline-card_title {
     display: none;
     margin: 10px 0 0;
   
-    font-family: 'ESL Legend', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #FF0;
+    color: #E36B4A;
   }
   .ag-timeline-card_desc {
     line-height: 1.45;
   
     font-size: 16px;
-    color: #FFF;
+    color: #000;
+    font-weight: 600;
   }
   
   
