@@ -13,7 +13,7 @@ body{
 }
 .header{
     min-height: 100vh;
-    width: 100vmax;
+    width: 100%;
 }
 
 nav{
@@ -56,7 +56,7 @@ nav img{
     background: rgba(226, 226, 226, 0.74);
     display: block;
     margin: auto;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .nav-links ul li:hover::after{
     width: 100%;

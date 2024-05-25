@@ -11,17 +11,17 @@
     <script type="module" src="index.js"></script>
 </head>
 <body>
-    <section class="header">
+    <section class="header" id="header">
         <nav>
-            <a href="index.html"><img src="assets/logo.png"></a>
+            <a href="#header"><img src="assets/logo.png"></a>
             <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Procedures</a></li>
-                    <li><a href="">Library</a></li>
-                    <li><a href="">Media Centers</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#section-1">About</a></li>
+                    <li><a href="#info-master">Procedures</a></li>
+                    <li><a href="#section-2">Library</a></li>
+                    <li><a href="#section-f">Media Centers</a></li>
                 </ul>        
             </div>
             <div class="contact"> +94 11 3456 765  |&nbsp;&nbsp;</div>
@@ -34,14 +34,14 @@
         <h2 class="sub-heading">Protecting our oceans, one step at a time</h2>
         <dir class="buttons">
             <ul>
-                <button type="button" class="button-1"><h3>Our stakeholders</h3></button>
-                <button type="button" class="button-2"><h3>Protect our coast<h3></button>
+                <a href="#section-2"><button type="button" class="button-1"><h3>Our stakeholders</h3></button></a>
+               <a href="#info-master-2"><button type="button" class="button-2"><h3>Protect our coast<h3></button></a> 
             </ul>
         </dir>
     </div>
 </section>
 
-    <section class="section-1">
+    <section class="section-1" id="section-1">
     <div class="container">
         <div class="parent">
             <div class="div1">
@@ -87,7 +87,7 @@
     <!-- icon slider -->
 
 
-    <section class="section-2">
+    <section class="section-2" id="section-2">
         <div class="icon-slider">
             <div class="txt-sec">
                 <div class="l-h1">Our Valued Partners</div>
@@ -162,7 +162,7 @@
         </div>
     </section>
 <!-- info -->
-<section class="info-master">
+<section class="info-master" id="info-master">
     <div class="info">
         <input type="radio" name="pricing-tier" id="economy">
         <input type="radio" name="pricing-tier" id="business" checked>
@@ -194,7 +194,7 @@
 </section>
 
 <!-- info 2-->
-<section class="info-master">
+<section class="info-master" id="info-master-2">
     <div class="info">
         <input type="radio" name="pricing-tier" id="tire1">
         <input type="radio" name="pricing-tier" id="tire2" checked>
@@ -226,7 +226,7 @@
 </section>
 
 <!-- footer -->
-<section class="section-f">
+<section class="section-f" id="section-f">
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-left">
