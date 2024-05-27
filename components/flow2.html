@@ -160,7 +160,7 @@
                   </div>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Search and rescue (SAR)</div>
-                    <div class="parent-grid">
+                    <!-- <div class="parent-grid">
                       <div class="div1">
                         <img src="/assets/div1.png" alt="" width="30px" height="30px">
                         <p>​Ship<br> Incidents</p>
@@ -193,68 +193,83 @@
                         <img src="/assets/div8.png" alt="" width="30px" height="30px">
                         <p>Terrorist<br> Attack</p>
                       </div>
-                      </div>
+                      </div> -->
                     <div class="ag-timeline-card_desc">
                       Sri Lanka Navy is the responsible authority for conducting maritime SAR operations. The Maritime Rescue Operation Center (MRCC) which is manned by trained naval personnel at the Naval Headquarters of the Sri Lanka Navy, is responsible for Sri Lanka SAR region which is approximately 28 times the land mass.  ​
                     </div>
-                    <!-- drop down -->
                     <div class="container5">
                       <div class="head5" onclick="toggleContent5()">
                           <div class="title5">NOHSCP Section-Search and Rescue (P.46) ​</div>
                           <img class="icon5" src="/assets/d-down.png" alt="arrow icon5">
                       </div>
                       <div class="list5" id="content5">
-                          <strong>Supported Parties:</strong>
-                          <ul>
+                          <strong>Supported: <img src="/assets/logo.png" alt="" width="20px" height="20px"></strong>
+                          <!-- <ul>
                               <li> - HNS Mechanism</li>
                               <li> - New agencies included to plan (Chemical Weapon Convention, ITI, CBRN Team)</li>
-                          </ul>
+                          </ul> -->
                       </div>
                     </div>
                     <!-- drop down 2 -->
                     <div class="container6">
                       <div class="head6" onclick="toggleContent6()">
-                          <div class="title6">Updating NOHSCP</div>
+                          <div class="title6">Search and Rescue Plan​</div>
                           <img class="icon6" src="/assets/d-down.png" alt="arrow icon6">
                       </div>
                       <div class="list6" id="content6">
-                          <strong>Supported Parties:</strong>
-                          <ul>
+                          <strong>Supported Parties: <img src="/assets/L2.png" alt="" width="20px" height="20px"> <img src="/assets/Sri_Lanka_Naval_Seal-2 4.png" alt="" width="20px" height="20px"></strong>
+                          <!-- <ul>
                               <li> - HNS Mechanism</li>
                               
-                          </ul>
+                          </ul> -->
                       </div>
                     </div>
 
                     <!-- drop down 3 -->
                     <div class="container7">
                       <div class="head7" onclick="toggleContent7()">
-                          <div class="title7">Identification of High-Risk Areas</div>
+                          <div class="title7">SL Navy  SAR Training Data Base</div>
                           <img class="icon7" src="/assets/d-down.png" alt="arrow icon7">
                       </div>
                       <div class="list7" id="content7">
-                          <strong>Supported Parties:</strong>
-                          <ul>
+                          <strong>Supported Parties: <img src="/assets/Sri_Lanka_Naval_Seal-2 4.png" alt="" width="20px" height="20px"></strong>
+                          <!-- <ul>
                               <li> - HNS Mechanism</li>
                               
-                          </ul>
+                          </ul> -->
                       </div>
                     </div>
 
                     <!-- drop down 4 -->
                     <div class="container4">
                       <div class="head4" onclick="toggleContent4()">
-                          <div class="title4">Identification of High-Risk Areas</div>
+                          <div class="title4">Details of Contact Points</div>
                           <img class="icon4" src="/assets/d-down.png" alt="arrow icon4">
                       </div>
                       <div class="list4" id="content4">
-                          <strong>Supported Parties:</strong>
-                          <ul>
+                          <strong>Supported Parties: <img src="/assets/Sri_Lanka_Naval_Seal-2 4.png" alt="" width="20px" height="20px"></strong>
+                          <!-- <ul>
                               <li> - HNS Mechanism</li>
                               
-                          </ul>
+                          </ul> -->
                       </div>
                     </div>
+
+                    <!-- drop down 8 -->
+                    <div class="container8">
+                      <div class="head8" onclick="toggleContent8()">
+                          <div class="title8">Available Capacities (Human Resources & Equipment)</div>
+                          <img class="icon8" src="/assets/d-down.png" alt="arrow icon8">
+                      </div>
+                      <div class="list8" id="content8">
+                          <strong>Supported Parties: <img src="/assets/Sri_Lanka_Naval_Seal-2 4.png" alt="" width="20px" height="20px"><img src="/assets/L2.png" alt="" width="20px" height="20px"></strong>
+                          <!-- <ul>
+                              <li> - HNS Mechanism</li>
+                              
+                          </ul> -->
+                      </div>
+                    </div>
+
 
                     <!-- pdf -->
                     <div class="containerpdf">
@@ -263,8 +278,9 @@
                           <h2>Resources</h2>
                       </div>
                       <ul class="resourcespdf">
-                          <li><a href="/assets/sample.pdf" download="Past_oil_and_HNS_spill_in_Sri_Lankan_waters.pdf">Past oil and HNS spill in Sri Lankan waters.pdf</a></li>
-                          <li><a href="/assets/sample.pdf" download="HNS_Spill_Contingency_Plans_of_other_Countries.pdf">HNS Spill Contingency Plans of other Countries.pdf</a></li>
+                        <li><a href="/assets/sample.pdf" download="SAR Reading Material.pdf">SAR Reading Material.pdf</a></li>
+                        <li><a href="/assets/sample.pdf" download="SAR Convention.pdf">SAR Convention.pdf</a></li>
+                        <li><a href="/assets/sample.pdf" download="IMO Guidelines.pdf">IMO Guidelines.pdf</a></li>
                       </ul>
                   </div>
                   </div>
@@ -601,6 +617,15 @@ function toggleContent7() {
             var head7 = document.querySelector('.head7');
             content7.classList.toggle('show7');
             head7.classList.toggle('open7');
+        }
+
+        // drop down 8
+
+function toggleContent8() {
+            var content8 = document.getElementById('content8');
+            var head8 = document.querySelector('.head8');
+            content8.classList.toggle('show8');
+            head8.classList.toggle('open8');
         }
 
 

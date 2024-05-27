@@ -546,6 +546,39 @@ body {
           transform: rotate(180deg);
       }
 
+      /* drop down-8 */
+      .container8 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .head8 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head8 .title8 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head8 .icon8 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list8 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list8.show8 {
+          display: block;
+      }
+      .head8.open8 .icon8 {
+          transform: rotate(180deg);
+      }
+
       /* pdf */
       .containerpdf {
         max-width: 600px;
