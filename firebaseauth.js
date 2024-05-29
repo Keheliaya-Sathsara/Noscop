@@ -96,4 +96,6 @@ signIn.addEventListener('click', (event)=>{
             showMessage('Account does not Exist', 'signInMessage');
         }
     })
-})
+});
+
+
