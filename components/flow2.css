@@ -247,6 +247,10 @@ body {
     padding: 20px 30px;
     background-color: #fff;
 
+    .ag-timeline-card_desc {
+      padding-bottom: 30px;
+    }
+
 
     .parent-grid {
       display: grid;
@@ -320,7 +324,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head-l {
           display: flex;
@@ -353,7 +357,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head2 {
           display: flex;
@@ -386,7 +390,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head3 {
           display: flex;
@@ -419,7 +423,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head4 {
           display: flex;
@@ -452,7 +456,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head5 {
           display: flex;
@@ -485,7 +489,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head6 {
           display: flex;
@@ -518,7 +522,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head7 {
           display: flex;
@@ -551,7 +555,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head8 {
           display: flex;
@@ -584,7 +588,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head9 {
           display: flex;
@@ -617,7 +621,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head10 {
           display: flex;
@@ -650,7 +654,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head11 {
           display: flex;
@@ -683,7 +687,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head12 {
           display: flex;
@@ -716,7 +720,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head13 {
           display: flex;
@@ -749,7 +753,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head14 {
           display: flex;
@@ -782,7 +786,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head15 {
           display: flex;
@@ -815,7 +819,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head16 {
           display: flex;
@@ -848,7 +852,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head17 {
           display: flex;
@@ -881,7 +885,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head18 {
           display: flex;
@@ -914,7 +918,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head19 {
           display: flex;
@@ -947,7 +951,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head20 {
           display: flex;
@@ -980,7 +984,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head21 {
           display: flex;
@@ -1013,7 +1017,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head22 {
           display: flex;
@@ -1046,7 +1050,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head23 {
           display: flex;
@@ -1079,7 +1083,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head24 {
           display: flex;
@@ -1112,7 +1116,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head25 {
           display: flex;
@@ -1145,7 +1149,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head26 {
           display: flex;
@@ -1178,7 +1182,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head27 {
           display: flex;
@@ -1211,7 +1215,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head28 {
           display: flex;
@@ -1244,7 +1248,7 @@ body {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head29 {
           display: flex;
@@ -1272,12 +1276,12 @@ body {
           transform: rotate(180deg);
       }
 
-      /* drop down-29 */
+      /* drop down-30 */
       .container30 {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 10px;
       }
       .head30 {
           display: flex;
@@ -1302,6 +1306,237 @@ body {
           display: block;
       }
       .head30.open30 .icon30 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-31 */
+      .container31 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head31 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head31 .title31 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head31 .icon31 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list31 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list31.show31 {
+          display: block;
+      }
+      .head31.open31 .icon31 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-32 */
+      .container32 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head32 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head32 .title32 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head32 .icon32 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list32 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list32.show32 {
+          display: block;
+      }
+      .head32.open32 .icon32 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-33 */
+      .container33 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head33 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head33 .title33 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head33 .icon33 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list33 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list33.show33 {
+          display: block;
+      }
+      .head33.open33 .icon33 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-34 */
+      .container34 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head34 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head34 .title34 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head34 .icon34 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list34 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list34.show34 {
+          display: block;
+      }
+      .head34.open34 .icon34 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-35 */
+      .container35 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head35 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head35 .title35 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head35 .icon35 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list35 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list35.show35 {
+          display: block;
+      }
+      .head35.open35 .icon35 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-36 */
+      .container36 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head36 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head36 .title36 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head36 .icon36 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list36 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list36.show36 {
+          display: block;
+      }
+      .head36.open36 .icon36 {
+          transform: rotate(180deg);
+      }
+
+      /* drop down-37 */
+      .container37 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      .head37 {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+      }
+      .head37 .title37 {
+          padding-right: 20px;
+          font-weight: 600;
+      }
+      .head37 .icon37 {
+          width: 10px;
+          height: auto;
+          transition: transform 0.3s;
+      }
+      .list37 {
+          margin-top: 10px;
+          display: none;
+          row-gap: 5px;
+      }
+      .list37.show37 {
+          display: block;
+      }
+      .head37.open37 .icon37 {
           transform: rotate(180deg);
       }
 
