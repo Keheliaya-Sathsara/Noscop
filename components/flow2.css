@@ -319,40 +319,6 @@ body {
         }
       }
 
-      /* drop down-1 */
-      .container-l {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        padding-bottom: 10px;
-      }
-      .head-l {
-          display: flex;
-          align-items: center;
-          cursor: pointer;
-      }
-      .head-l .title {
-          padding-right: 20px;
-          font-weight: 600;
-      }
-      .head-l .icon {
-          width: 10px;
-          height: auto;
-          transition: transform 0.3s;
-      }
-      .list {
-          margin-top: 10px;
-          display: none;
-          row-gap: 5px;
-      }
-      .list.show {
-          display: block;
-      }
-      .head-l.open .icon {
-          transform: rotate(180deg);
-      }
-
-
       /* -drop down- */
       .container37 {
         width: 100%;
