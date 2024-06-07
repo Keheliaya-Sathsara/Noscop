@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noscop</title>
+    <link rel="stylesheet" href="library.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <script type="module" src="index.js"></script> -->
+</head>
+<body>
+    <section class="header" id="header">
+        <nav>
+            <img src="assets/Department of fisheries.png" alt="Noscop Logo" style="height: 50px; width: 40px; padding-right: 5px;">
+            <a href="#header"><img src="assets/logo.png" alt="Noscop Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Procedures</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="media.html">Media Centers</a></li>
+                </ul>        
+            </div>
+            <div class="contact"> +94 11 255 4006  &nbsp;|</div>
+            <div class="flag"><img src="assets/flag.png" alt="Sri Lanka Flag">&nbsp;&nbsp; Sri Lanka &nbsp;</div>
+            <!-- <button class="button" id="signin">Logout</button> -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        
+    </div>
+        
+    </section>
+
+
+    <!-- gallery -->
+    
+
+    
+    
+
+    
+    
+
+
+    <!-- footer -->
+    <section class="section-f" id="section-f">
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <div class="logo">
+                        <img src="assets/Department of fisheries.png" alt="Logo1" class="logo-img">
+                        <img src="assets/logo.png" alt="Logo2" class="logo-img">
+                        <h2>Sri Lanka Marine Environment <br>Protection Authority</h2>
+                    </div>
+                    <p>The Marine Environment Protection Authority abbreviated MEPA is the apex body established by the Government of Sri Lanka, under the provisions of Marine Pollution Prevention Act No.59 of 1981, which was later repealed by Marine Pollution Prevention Act No.35 of 2008.</p>
+                    <div class="contact-section">
+                        <div class="contact-item">
+                            <img src="assets/cl-btn.png" alt="cl button" class="contact-icon">
+                            <div>
+                                <p class="s-p-p">Have a question?</p>
+                                <p class="s-p">+94 11 255 4006</br>+94 11 255 4373</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <img src="assets/email-cl.png" alt="email button" class="contact-icon">
+                            <div>
+                                <p class="s-p-p">Contact us at</p>
+                                <a href="info@mepa.gov.lk" target="_blank" rel="noopener noreferrer"><p class="s-p">info@mepa.gov.lk</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="newsletter-section">
+                        <h2>Newsletter</h2>
+                        <p>Be the first one to know about discounts, offers and events. Unsubscribe whenever you like.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" class="newsletter-input">
+                            <button type="submit" class="newsletter-button">Submit</button>
+                        </form>
+                    </div>
+                    <div class="social-section">
+                        <div class="social-icon">
+                            <a href="https://web.facebook.com/SLMEPA/"><img src="assets/fb-btn.png" alt="fb button" class="social-icons"></a>
+                            <a href="https://www.youtube.com/@slmepa1434"><img src="assets/yt-btn.png" alt="youtube button" class="social-icons"></a>
+                            <!-- <a href="#"><img src="assets/wht-btn.png" alt="whatsapp button" class="social-icons"></a> -->
+                            <a href="https://www.linkedin.com/company/marine-environment-protection-authority/"><img src="assets/linkedin.png" alt="linkedin button" class="social-icons"></a>
+                            <a href="https://x.com/SLMEPA"><img src="assets/twiter.png" alt="twiter button" class="social-icons"></a>
+                            <a href="https://www.instagram.com/sl.mepa/"><img src="assets/inta.png" alt="intergram button" class="social-icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="bottom-bar">
+                <nav class="footer-nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Procedures</a>
+                    <a href="#">Library</a>
+                    <a href="#">Media Centre</a>
+                </nav>
+            </div> -->
+            <div class="bottom-bottom-bar">
+                <p class="copyright">Powered by <a href="http://www.ecubemediausa.com">Ecube</a></p>
+                <p class="copyright">© 2024, All Rights Reserved</p>
+            </div>
+        </footer>
+    </section>
+    <!-- footer end -->
+
+    <!-- script  -->
+    <script>
+        /* Background slider */
+        const images = [
+            'assets/background1.png',
+            'assets/background2.png',
+            'assets/background3.png'
+        ];
+
+        let currentIndex = 0;
+
+        function changeBackground() {
+            document.body.style.backgroundImage = `url(${images[currentIndex]})`;
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+
+        setInterval(changeBackground, 5000); // Change image every 5 seconds
+
+        window.addEventListener('scroll', function() {
+            document.body.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Initialize with the first background image
+        document.body.style.backgroundImage = `url(${images[0]})`;
+
+        // Function to navigate to regsign.html
+        // function navigateToSignin() {
+        //     window.location.href = 'regsign.html';
+        // }
+
+        // Add event listener to the "Signin" button
+        // document.getElementById('signin').addEventListener('click', navigateToSignin);
+
+
+        
+
+
+    </script>
+</body>
+</html>
