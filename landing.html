@@ -291,9 +291,28 @@
     <section class="special" id="special">
         <div class="sub-head">
             <h2 class="recent">Recent Incidents</h2>
-            <p>Explore our media gallery to see the National Oil and HNS Spill Response Department in action. Here, we showcase recent incidents and our effective response efforts. Witness our team's dedication and expertise in managing and mitigating oil and HNS spills to protect our environment.</p>
+            <p class="psp">Explore our media gallery to see the National Oil and HNS Spill Response Department in action. Here, we showcase recent incidents and our effective response efforts. Witness our team's dedication and expertise in managing and mitigating oil and HNS spills to protect our environment.</p>
         </div>
-        <div class="container">
+        <div class="slide">
+            <div id="wrapper">
+                <div id="image">
+                    <div class="image i1"><img class="imgs" src="assets/image1.jpg" ></div>
+                    <div class="image i2"><img class="imgs" src="assets/image2.jpg"></div>
+                    <div class="image i3"><img class="imgs" src="assets/image3.jpg"></div>
+                    <div class="image i4"><img class="imgs" src="assets/image4.jpg"></div>
+                    <div class="image i5"><img class="imgs" src="assets/image5.jpg"></div>
+                    <div class="image i6"><img class="imgs" src="assets/image6.jpg"></div>
+                    <div class="image i7"><img class="imgs" src="assets/image7.jpg"></div>
+                    <div class="image i8"><img class="imgs" src="assets/image8.jpg"></div>
+                    <div class="image i9"><img class="imgs" src="assets/x10.jpg"></div>
+                    <div class="image i10"><img class="imgs" src="assets/x7.JPG"></div>
+                    <div class="image i11"><img class="imgs" src="assets/x8.jpg"></div>
+                    <div class="image i12"><img class="imgs" src="assets/image6.jpg"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container">
             <div class="curved-carousel">
           <svg class="top-curve" width="1920" height="239" viewBox="0 0 1920 239" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1920 163.305C1182.46 258.986 763.401 269.344 0 163.305V0H1920V163.305Z" />
@@ -310,15 +329,13 @@
                 <img class="item" src="assets/x10.jpg" alt="">
                 <img class="item" src="assets/x7.JPG" alt="">
                 <img class="item" src="assets/x8.jpg" alt="">
-                <img class="item" src="" alt="">
-                <img class="item" src="" alt="">
-                <img class="item" src="" alt="">
+                
               </div>
           <svg class="bottom-curve" width="1920" height="239" viewBox="0 0 1920 239" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1920 163.305C1182.46 258.986 763.401 269.344 0 163.305V0H1920V163.305Z" />
             </svg>
             </div>
-           </div>
+           </div> -->
             
             
             
@@ -489,22 +506,39 @@
         
         document.addEventListener('DOMContentLoaded', () => {
             const container = document.querySelector('.items-container');
-            let scrollAmount = 5;
-            const scrollStep = 50; // Width of each item
-            const scrollInterval = 50; // Time interval in milliseconds
+            const items = document.querySelectorAll('.item');
+            let scrollAmount = 0;
+            const scrollStep = 10.5; // Smaller value for slower movement
 
-            setInterval(() => {
-            if (scrollAmount >= container.scrollWidth - container.clientWidth) {
-                scrollAmount = 5; // Reset to the beginning
-            } else {
-                scrollAmount += scrollStep;
-            }
-            container.scrollTo({
-                left: scrollAmount,
-                behavior: 'smooth'
+            // Clone items to create a seamless loop
+            items.forEach(item => {
+                const clone = item.cloneNode(true);
+                container.appendChild(clone);
             });
-            }, scrollInterval);
+
+            function scrollContainer() {
+                scrollAmount += scrollStep;
+                
+                if (scrollAmount >= container.scrollWidth / 2) {
+                    scrollAmount = 0; // Reset to the beginning
+                    container.scrollTo({
+                        left: scrollAmount,
+                        behavior: 'auto'
+                    });
+                } else {
+                    container.scrollTo({
+                        left: scrollAmount,
+                        behavior: 'auto'
+                    });
+                }
+                
+                // Continue the animation
+                requestAnimationFrame(scrollContainer);
+            }
+
+            scrollContainer(); // Start the scrolling loop
         });
+
 
 
         // gallery 2
