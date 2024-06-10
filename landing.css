@@ -618,11 +618,19 @@ body {
 }
 
 #image:hover {
-  animation-play-state:paused;
+  transform: scale(1.5);
+  /* animation-play-state:paused;
   -o-animation-play-state:paused;
   -moz-animation-play-state:paused;
-	-webkit-animation-play-state:paused;
+	-webkit-animation-play-state:paused; */
 }
+#image:hover imgs {
+  transform: scale(1.2); /* Increase the scale to zoom in */
+  transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+  cursor: pointer;
+}
+
+
 
 
 @-webkit-keyframes spin {
