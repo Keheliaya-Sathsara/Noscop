@@ -605,16 +605,16 @@ body {
 }
 
 #wrapper {
-  perspective: 2500;
-	-webkit-perspective: 2500;
+  -webkit-perspective: 2500;
+	perspective: 2500;
 	width: 800px;
 	margin: 0 auto 0 auto;
-  perspective-origin: 50% 150px;
-	-webkit-perspective-origin: 50% 150px;
-  transition: perspective, 1s;
+  -webkit-perspective-origin: 50% 150px;
+	perspective-origin: 50% 150px;
+  -webkit-transition: -webkit-perspective, 1s;
   -o-transition: -o-perspective, 1s;
   -moz-transition: -moz-perspective, 1s;
-	-webkit-transition: -webkit-perspective, 1s;
+	transition: perspective, 1s;
 }
 
 #image:hover {
@@ -635,11 +635,11 @@ body {
 
 @-webkit-keyframes spin {
 	from {
-    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
     -o-transform: rotateY(0);
     -ms-transform: rotateY(0);
     -moz-transform: rotateY(0);
-		-webkit-transform: rotateY(0);
+		transform: rotateY(0);
 	}
 	to {
     transform: rotateY(-360deg);
