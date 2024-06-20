@@ -332,13 +332,22 @@ img {
       padding-bottom: 10px;
     }
     .head37 {
+        /* display: flex;
+        align-items: center;
+        cursor: pointer; */
         display: flex;
         align-items: center;
         cursor: pointer;
+        background-color: #128385;
+        border-radius: 12px;
     }
     .head37 .title37 {
-        padding-right: 20px;
+        /* padding-right: 20px;
+        font-weight: 600; */
+        padding: 8px;
         font-weight: 600;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
     }
     .head37 .icon37 {
         width: 10px;
@@ -346,16 +355,20 @@ img {
         transition: transform 0.3s;
     }
     .list37 {
-        margin-top: 10px;
+        /* margin-top: 10px;
         display: none;
+        row-gap: 5px; */
+        margin-top: 10px;
+        padding-left: 20px;
+        /* display: none; */
         row-gap: 5px;
     }
-    .list37.show37 {
+    /* .list37.show37 {
         display: block;
     }
     .head37.open37 .icon37 {
         transform: rotate(180deg);
-    }
+    } */
 
     
 
