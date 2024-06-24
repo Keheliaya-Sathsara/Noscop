@@ -346,6 +346,7 @@
       transition: box-shadow .3s;
       text-align: center;
       font-weight: 500;
+      font-size: 16px;
     }
     
     &:hover {
@@ -410,8 +411,22 @@
     justify-content: center;
     font-weight: 600;
     font-size: 24px;
+    
   }
-  
+  .seamore {
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0; 
+    padding-bottom: 30px;
+  }
+  .seamore-btn {
+    background-color: #cecece;
+    margin: 0 700px;
+    justify-items: auto;
+    border-radius:10px;
+  }
   
   
   
