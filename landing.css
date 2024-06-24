@@ -286,7 +286,7 @@ nav img{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: calc(150px * 19);
+	width: calc(150px * 20);
   animation-duration: 60s;
   animation-iteration-count: infinite;
 }
@@ -308,8 +308,8 @@ nav img{
 	}
 
 	100% {
-		-webkit-transform: translateX(calc(-150px * 19));
-		transform: translateX(calc(-150px * 19));
+		-webkit-transform: translateX(calc(-150px * 20));
+		transform: translateX(calc(-150px * 20));
 	}
 }
 
@@ -320,8 +320,8 @@ nav img{
 	}
 
 	100% {
-		-webkit-transform: translateX(calc(-150px * 19));
-		transform: translateX(calc(-150px * 19));
+		-webkit-transform: translateX(calc(-150px * 20));
+		transform: translateX(calc(-150px * 20));
 	}
 }
 
