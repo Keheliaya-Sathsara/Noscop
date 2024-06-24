@@ -306,7 +306,7 @@
     }
   }
   .grid-item {
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.500);
     transition: box-shadow .3s;
     
     a {
@@ -322,31 +322,45 @@
     }
     
     .info {
-      background-color: #00000094;
+      background-color: #0000008a;
       position: relative;
       height: calc(100% - 200px);
       padding: 25px 25px 86px 25px;
+      color: #fff;
+      text-align: center;
     }
     
     .button-wrap {
-      display: block;
+      display: inline-block;
       width: calc(100% - 50px);
+      height: auto;
       position: absolute;
+      padding: 10px 30px;
+      border: 0;
+      border-radius: 4px;
       bottom: 25px;
       left: 25px;
+      color: #000000;
+      background: rgb(255, 255, 255);
+      box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.582);
+      transition: box-shadow .3s;
+      text-align: center;
+      font-weight: 500;
     }
     
     &:hover {
-      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.808);
       
-      .btn {
-        box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.3);
+      .button-wrap {
+        box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.801);
+        
       }
     }
     
     &:active {
-      .btn {
-        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.164);
+      .button-wrap {
+        box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.562);
+        color: #fff;
       }
     }
   }
@@ -355,6 +369,7 @@
     margin-bottom: 0.5em;
     font-size: 1.4rem;
     font-weight: bold;
+    color: #fff;
   }
   
   .copy {
@@ -368,19 +383,6 @@
     }
   }
   
-  .btn {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    border: 0;
-    border-radius: 0;
-    padding: 15px 25px;
-    background: rgb(204,204,204);
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-    transition: box-shadow .3s;
-    
-    color: #000;
-  }
   
   .object-fit {
     display: block;
