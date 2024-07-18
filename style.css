@@ -22,6 +22,18 @@ body{
     width: 100%;
 }
 
+.fundline{
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding: 0% 9.5%;
+  justify-content: end;
+  align-items: center;
+  background-color: #ffffffd8;
+  color: #000;
+  font-size: 16px;
+}
+
 nav{
     display: flex;
     padding: 1% 10%;
