@@ -93,10 +93,12 @@ nav img{
 }
 .button{
   background-color: #E36B4A;
-  padding: 4px 8px;
+  padding: 4px 25px;
   font-weight: 500;
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #E36B4A;
   font-size: 14px;
 }
 
