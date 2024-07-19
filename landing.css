@@ -22,6 +22,18 @@ body{
     width: 100%;
 }
 
+.fundline{
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding: 0% 9.5%;
+  justify-content: end;
+  align-items: center;
+  background-color: #ffffffd8;
+  color: #000;
+  font-size: 16px;
+}
+
 nav{
     display: flex;
     padding: 1% 10%;
@@ -81,10 +93,12 @@ nav img{
 }
 .button{
   background-color: #E36B4A;
-  padding: 4px 8px;
+  padding: 4px 25px;
   font-weight: 500;
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #E36B4A;
   font-size: 14px;
 }
 .text-box{
