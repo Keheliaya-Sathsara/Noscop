@@ -395,6 +395,7 @@ img {
         cursor: pointer;
         background-color: #128385;
         border-radius: 12px;
+        justify-content: space-between;
         /* background-color: rgba(255, 147, 84, 0.4);padding: 4px; */
     }
     .head37 .title37 {
@@ -404,10 +405,10 @@ img {
         color: rgb(255, 255, 255);
     }
     .head37 .icon37 {
-        width: 10px;
+        width: 20px;
         height: auto;
         transition: transform 0.3s;
-        
+        margin-right: 15px;
     }
     .list37 {
         margin-top: 10px;
