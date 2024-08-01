@@ -396,6 +396,7 @@ img {
         cursor: pointer;
         background-color: #128385;
         border-radius: 12px;
+        justify-content: space-between;
     }
     .head37 .title37 {
         /* padding-right: 20px;
@@ -408,8 +409,10 @@ img {
     }
     .head37 .icon37 {
         width: 10px;
+        height: auto;width: 20px;
         height: auto;
         transition: transform 0.3s;
+        margin-right: 15px;
     }
     .list37 {
         margin-top: 10px;
