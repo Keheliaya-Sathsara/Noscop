@@ -138,6 +138,7 @@ nav img{
     text-align: center;
     color: #ffffff;
     align-content: center;
+    width:250px;
     
     h3 {
       font-size: 20px;
@@ -145,6 +146,14 @@ nav img{
       align-items: baseline;
     }
 }
+
+.button-1:hover{
+  background-color: #E36B4A;
+  transition: all 0.5s;
+  border-color: #E36B4A;
+}
+
+
 .button-2{
     padding: 9Px 40px 5px 40px;
     border-radius: 20px;
@@ -155,12 +164,19 @@ nav img{
     color: #ffffff;
     margin-left: 12px;
     align-content: center;
+    width:250px;
 
     h3 {
       font-size: 20px;
       font-weight: 400;
       align-items: baseline;
     }
+}
+
+.button-2:hover{
+  background-color: #ffffff00;
+  border-color: #ffffff;
+  transition: all 0.5s;
 }
 
 /* about section */
