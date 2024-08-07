@@ -836,12 +836,18 @@ width: calc(100% * var(--length));
 will-change: transform;
 transform: translateX(calc(-100% / var(--length) * var(--i)));
 transition: var(--ease);
+background-color: #ffffff;
 }
 .slider-wrapper .details {
 padding: 2rem;
 width: 100%;
 align-content: center;
 position: relative;
+background-color: #ffffff;
+}
+.slider-wrapper .iclz {
+  background-color: #ffffff;
+  width: 100%;
 }
 
 /* tire */
