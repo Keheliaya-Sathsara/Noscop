@@ -447,17 +447,23 @@ body {
           margin-right: 10px;
       }
       .resourcespdf {
-          list-style-type: none;
-          padding: 0;
-      }
-      .resourcespdf li {
-          margin-bottom: 10px;
-      }
-      .resourcespdf a {
-          text-decoration: none;
-          color: #E36B4A;
-          font-size: 16px;
-      }
+        /* list-style-type: none; */
+        padding: 0;
+        padding-left: 20px;
+    }
+    .resourcespdf li {
+        margin-bottom: 10px;
+        list-style-type: disc;
+        list-style-position: inherit;
+        color: #E36B4A;
+        font-size: 20px;
+    }
+    .resourcespdf a {
+        text-decoration: none;
+        color: #E36B4A;
+        font-size: 16px;
+        font-weight: 500;
+    }
       .resourcespdf a:hover {
           text-decoration: underline;
       }
