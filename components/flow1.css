@@ -304,9 +304,19 @@ img {
 .ag-timeline-card_img {
   width: 100%;
 }
+.js-timeline_item ag-timeline_item {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.ag-timeline-card_inner {
+  background-color: #fff;
+}
 .ag-timeline-card_info {
   padding: 20px 30px;
   background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
 
   .ag-timeline-card_desc {
@@ -447,16 +457,22 @@ img {
         margin-right: 10px;
     }
     .resourcespdf {
-        list-style-type: none;
+        /* list-style-type: none; */
         padding: 0;
+        padding-left: 20px;
     }
     .resourcespdf li {
         margin-bottom: 10px;
+        list-style-type: disc;
+        list-style-position: inherit;
+        color: #E36B4A;
+        font-size: 20px;
     }
     .resourcespdf a {
         text-decoration: none;
         color: #E36B4A;
         font-size: 16px;
+        font-weight: 500;
     }
     .resourcespdf a:hover {
         text-decoration: underline;
