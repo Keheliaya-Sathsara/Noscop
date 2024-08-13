@@ -886,3 +886,7 @@ background-color: #ffffff;
 #tire3:focus ~ .slider-wrapper label[for=tire3] {
   color: var(--primary);
 }
+
+.iclz {
+  border: 5px solid #fff;
+}
