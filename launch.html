@@ -11,18 +11,19 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
         window.onload = function() {
-            // Check if the user has already visited the launch page
             if (localStorage.getItem('websiteLaunched') === 'true') {
-                // Redirect directly to index.html if already launched
                 window.location.href = 'landing.html';
             }
+
+            // Initialize Particles.js
+            particlesJS.load('particles-js', 'particles.json', function() {
+              console.log('Particles.js loaded');
+            });
         };
 
         function launchWebsite() {
-            // Set a flag to prevent the launch page from showing again
             localStorage.setItem('websiteLaunched', 'true');
-            // Redirect to the main website
-            window.location.href = 'landing.html'; // Redirect to your main page
+            window.location.href = 'landing.html';
         }
     </script>
 </head>
