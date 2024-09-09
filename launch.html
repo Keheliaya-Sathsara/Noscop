@@ -11,6 +11,12 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
         window.onload = function() {
+            const loadingScreen = document.getElementById('loadingScreen');
+            setTimeout(function() {
+                // Hide loading screen after 2 seconds
+                loadingScreen.classList.add('hidden');
+            }, 2000);
+
             if (localStorage.getItem('websiteLaunched') === 'true') {
                 window.location.href = 'landing.html';
             }
@@ -21,18 +27,27 @@
             });
         };
 
+        // Function to launch the website with fade-out and delay
         function launchWebsite() {
-            localStorage.setItem('websiteLaunched', 'true');
-            window.location.href = 'landing.html';
+            // Fade out the content before redirecting
+            document.body.classList.add('hidden');
+            setTimeout(function() {
+                localStorage.setItem('websiteLaunched', 'true');
+                window.location.href = 'landing.html'; // Redirect to main page
+            }, 2000); // 1 second delay for fade-out effect
         }
     </script>
 </head>
 <body>
+    <!-- Loading screen -->
+    <div class="loading-screen" id="loadingScreen">Loading...</div>
     <div id="particles-js"></div>
     <div class="lp-content">
         <h1>Welcome to Our Website!</h1>
         <p>Click the button below to launch the website.</p>
-        <button onclick="launchWebsite()">Launch Website</button>
+        <div class="wrap">
+            <button onclick="launchWebsite()">Launch </br>Website</button>
+        </div>
     </div>
 </body>
 </html>
