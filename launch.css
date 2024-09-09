@@ -16,6 +16,10 @@ body {
     color: white;
 }
 
+.lp-content {
+   
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -27,6 +31,6 @@ button {
 }
 
 button:hover {
-    background-color: #ff9a9e;
+    background-color: #E36B4A;
     color: #fff;
 }
