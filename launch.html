@@ -34,7 +34,7 @@
             setTimeout(function() {
                 localStorage.setItem('websiteLaunched', 'true');
                 window.location.href = 'landing.html'; // Redirect to main page
-            }, 2000); // 1 second delay for fade-out effect
+            }, 4000); // 1 second delay for fade-out effect
         }
     </script>
 </head>
@@ -42,13 +42,14 @@
     <!-- Loading screen -->
     <div class="loading-screen" id="loadingScreen">Loading...</div>
     <div id="particles-js"></div>
+    
     <video class="video-background" autoplay muted loop>
         <source src="assets/wave.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="lp-content">
-        <h1>Welcome to Our Website!</h1>
-        <p>Click the button below to launch the website.</p>
+        <h1>Protecting our oceans one step at a time</h1>
+        <p>Sri Lanka Marine Environment Protection Authority</p>
         <div class="wrap">
             <button onclick="launchWebsite()">Start</button>
         </div>
