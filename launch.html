@@ -1,0 +1,30 @@
+<!-- launch.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Launch Page</title>
+    <script>
+        window.onload = function() {
+            // Check if the user has already visited the launch page
+            if (localStorage.getItem('websiteLaunched') === 'true') {
+                // Redirect directly to index.html if already launched
+                window.location.href = 'landing.html';
+            }
+        };
+
+        function launchWebsite() {
+            // Set a flag to prevent the launch page from showing again
+            localStorage.setItem('websiteLaunched', 'true');
+            // Redirect to the main website
+            window.location.href = 'landing.html'; // Redirect to your main page
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to Our Website!</h1>
+    <p>Click the button below to launch the website.</p>
+    <button onclick="launchWebsite()">Launch Website</button>
+</body>
+</html>

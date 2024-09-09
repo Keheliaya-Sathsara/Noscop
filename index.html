@@ -468,6 +468,14 @@
             });
         });
 
+        // On page load, check if the website has been launched before
+        window.onload = function() {
+            if (localStorage.getItem('websiteLaunched') !== 'true') {
+                // If it's the user's first time, redirect to the launch page
+                window.location.href = 'launch.html'; // Redirect to the launch page
+            }
+        };
+
       
 
     </script>
