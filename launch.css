@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #1d1d1d;
+    background-color: #1d1d1d3d;
     z-index: -1; /* Behind the content */
 }
 /* Full-screen loading overlay */
@@ -36,12 +36,42 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+    
+    background: linear-gradient(45deg, #1e3c72, #2a5298, #6dd5ed);
     background-size: 400% 400%;
     animation: gradientBackground 15s ease infinite;
     font-family: Arial, sans-serif;
     opacity: 1;
+    transition: opacity 1s ease; 
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    opacity: 1;
     transition: opacity 1s ease; /* Smooth fade-in/fade-out */
+    overflow: hidden;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.content {
+    z-index: 1;
+    color: white;
+    text-align: center;
 }
 
 /* Fade-out class for body */
@@ -71,8 +101,8 @@ h1, p {
   }
   
 button {
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
     display: inline-flex;
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
@@ -82,12 +112,12 @@ button {
     text-align: center;
     letter-spacing: 1.3px;
     font-weight: 700;
-    color: #313133;
-    background: #d1744f;
-    background: linear-gradient(90deg, rgb(230, 161, 129) 0%, rgb(209, 116, 79) 100%);
+    color: #616161;
+    background: #4fcbd1;
+    background: linear-gradient(90deg, rgb(129, 220, 230) 0%, rgb(79, 209, 209) 100%);
     border: none;
     border-radius: 100%;
-    box-shadow: 12px 12px 24px rgba(209, 120, 79, 0.64);
+    box-shadow: 12px 12px 24px rgba(79, 196, 209, 0.64);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -100,8 +130,8 @@ button {
     border-radius: 100%;
     min-width: calc(200px + 12px);
     min-height: calc(200px + 12px);
-    border: 6px solid #ff5e00;
-    box-shadow: 0 0 60px rgba(255, 102, 0, 0.64);
+    border: 6px solid #00eaff;
+    box-shadow: 0 0 60px rgba(0, 234, 255, 0.64);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -125,7 +155,7 @@ button {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
-    border: 6px solid #ff5e00;
+    border: 6px solid #00e1ff;
     position: absolute;
     z-index: -1;
     top: 50%;
