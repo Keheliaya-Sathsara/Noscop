@@ -39,7 +39,7 @@ body {
     
     background: linear-gradient(45deg, #1e3c72, #2a5298, #6dd5ed);
     background-size: 400% 400%;
-    animation: gradientBackground 15s ease infinite;
+    animation: gradientBackground 3s ease infinite;
     font-family: Arial, sans-serif;
     opacity: 1;
     transition: opacity 1s ease; 
