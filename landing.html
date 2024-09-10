@@ -446,8 +446,8 @@
                 </div>
                 <div class="footer-right">
                     <div class="newsletter-section">
-                        <h2>Newsletter</h2>
-                        <p>Be the first one to know about news and events. Unsubscribe whenever you like.</p>
+                        <h2>MEPA Hotline</h2>
+                        <p>Report Marine Pollution Incident: <span style="color: #E36B4A;font-weight: 600;">1949</span></p>
                         <form class="newsletter-form">
                             <input type="email" placeholder="Enter your email" class="newsletter-input">
                             <button type="submit" class="newsletter-button">Submit</button>
@@ -589,7 +589,13 @@
             showSlides(slideIndex);
         });
 
-
+        // On page load, check if the website has been launched before
+        window.onload = function() {
+            if (localStorage.getItem('websiteLaunched') !== 'true') {
+                // If it's the user's first time, redirect to the launch page
+                window.location.href = 'launch.html'; // Redirect to the launch page
+            }
+        };
 
 
  

@@ -1,0 +1,58 @@
+<!-- launch.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Launch Page</title>
+    <link rel="stylesheet" href="launch.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700&amp;display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        window.onload = function() {
+            const loadingScreen = document.getElementById('loadingScreen');
+            setTimeout(function() {
+                // Hide loading screen after 2 seconds
+                loadingScreen.classList.add('hidden');
+            }, 2000);
+
+            if (localStorage.getItem('websiteLaunched') === 'true') {
+                window.location.href = 'landing.html';
+            }
+
+            // Initialize Particles.js
+            particlesJS.load('particles-js', 'particles.json', function() {
+              console.log('Particles.js loaded');
+            });
+        };
+
+        // Function to launch the website with fade-out and delay
+        function launchWebsite() {
+            // Fade out the content before redirecting
+            document.body.classList.add('hidden');
+            setTimeout(function() {
+                localStorage.setItem('websiteLaunched', 'true');
+                window.location.href = 'landing.html'; // Redirect to main page
+            }, 3000); // 1 second delay for fade-out effect
+        }
+    </script>
+</head>
+<body>
+    <!-- Loading screen -->
+    <div class="loading-screen" id="loadingScreen">Loading...</div>
+    <div id="particles-js"></div>
+    
+    <video class="video-background" autoplay muted loop>
+        <source src="assets/wave.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="lp-content">
+        <h1>Protecting our oceans one step at a time</h1>
+        <p>Sri Lanka Marine Environment Protection Authority</p>
+        <div class="wrap">
+            <button onclick="launchWebsite()">Start</button>
+        </div>
+    </div>
+</body>
+</html>
