@@ -408,6 +408,17 @@ img {
       border-radius: 12px;
       justify-content: space-between;
   }
+  .spcl-list {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background-color: #128385;
+      border-radius: 12px;
+      justify-content: space-between;
+      padding: 8px;
+      margin-bottom: 4px;
+      color: #fff;
+  }
   .head37 .title37 {
       /* padding-right: 20px;
       font-weight: 600; */
